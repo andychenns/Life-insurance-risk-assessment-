@@ -1,0 +1,18 @@
+---
+title: "Risk assessment"
+author: "LonghaoChen"
+date: "12/1/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(readr)
+```
+
+```{r}
+
+read_csv("prudential-life-insurance-data/train.csv")
+
+```
+
